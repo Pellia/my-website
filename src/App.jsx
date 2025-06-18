@@ -16,7 +16,10 @@ const App = () => {
           </a>
         </li>
         <li>
-          <a href="www.linkedin.com/in/dev-rupinder-singh" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/dev-rupinder-singh/"
+            target="_blank"
+          >
             <img
               src="/icons/linkedin.svg"
               alt="linkedin-icon"
