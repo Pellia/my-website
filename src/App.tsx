@@ -1,6 +1,34 @@
+import { useEffect, useState } from "react";
+
 const App = () => {
+  const [themeMode, setThemeMode] = useState(
+    window.matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light"
+  );
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.add("light");
+    }
+  }, []);
+
+  const handleTheme = (name: any) => {
+    if (themeMode === "dark") {
+      setThemeMode("light");
+      document.body.classList.add("light");
+      document.body.classList.remove("dark");
+      console.log(name);
+    } else {
+      setThemeMode("dark");
+      document.body.classList.add("dark");
+      document.body.classList.remove("light");
+      console.log(name);
+    }
+  };
+
   return (
-    <main className="flex h-dvh flex-col items-center justify-center gap-4 bg-neutral-200 text-center text-neutral-700">
+    <main className="flex h-dvh flex-col items-center justify-center gap-4 bg-neutral-200 text-center text-copy-secondary">
       <h2 className="inline-block bg-gradient-to-r from-blue-400 via-indigo-400 to-violet-400 bg-clip-text text-4xl font-bold text-transparent">
         Full Stack Developer
       </h2>
@@ -40,6 +68,22 @@ const App = () => {
           </a>
         </li>
       </ul>
+      <div className="flex gap-2">
+        <button
+          onClick={() => {
+            handleTheme("test");
+          }}
+          className="bg-primary px-2 py-1 rounded-lg font-bold text-white"
+        >
+          Dark
+        </button>
+        <button
+          onClick={handleTheme}
+          className="bg-primary px-2 py-1 rounded-lg font-bold text-white"
+        >
+          Light
+        </button>
+      </div>
     </main>
   );
 };
