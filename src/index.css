@@ -14,7 +14,7 @@
 }
 
 .light {
-  --color-primary: #4ade80; /* Brighter green for dark mode */
+  --color-primary: #ec4b06; /* Brighter green for dark mode */
   --color-muted: #334155; /* Muted slate color */
   --color-tertiary: #64748b; /* Medium gray with blue tint */
   --color-surface: #1e293b; /* Dark blue-gray for surfaces */
