@@ -1,29 +1,72 @@
 @import "tailwindcss";
 
+/* Font Inter Regular */
+@font-face {
+    font-family: Inter;
+    src: url(../../public/fonts/Inter_28pt-Regular.ttf);
+}
+
+/* Font Inter Medium */
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../../public/fonts/Inter_28pt-Medium.ttf);
+}
+
+/* Font Inter Semi Bold */
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../../public/fonts/Inter_28pt-SemiBold.ttf);
+}
+
+/* Font Inter Bold */
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../../public/fonts/Inter_28pt-Bold.ttf);
+}
+
+/* Font Inter Extra Bold */
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(../../public/fonts/Inter_28pt-ExtraBold.ttf);
+}
+
+/* Font Inter Black */
+@font-face {
+    font-family: Inter-Black;
+    src: url(../../public/fonts/Inter_28pt-Black.ttf);
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --color-primary: #166534; /* Forest green, softer than original */
-    --color-muted: #e5e5e5; /* Light gray for subtle elements */
-    --color-tertiary: #94a3b8; /* Slate blue-gray, Notion-like */
-    --color-surface: #ffffff; /* Pure white for surfaces */
-    --color-accent: #64748b; /* Grayscale accent with bluish tint */
-    --color-secondary: #dcfce7; /* Very light green for highlights */
-    --color-content: #0f172a; /* Almost black, but softer */
-    --color-background: #f8fafc; /* Off-white background, Notion-like */
+    --font-inter: Inter;
+    --font-inter-medium: Inter-Medium;
+    --font-inter-semibold: Inter-SemiBold;
+    --font-inter-bold: Inter-Bold;
+    --font-inter-extrabold: Inter-ExtraBold;
+    --font-inter-black: Inter-Black;
+    /* --color-primary: #166534;
+    --color-muted: #e5e5e5;
+    --color-tertiary: #94a3b8;
+    --color-surface: #ffffff;
+    --color-accent: #64748b;
+    --color-secondary: #dcfce7;
+    --color-content: #0f172a;
+    --color-background: #f8fafc; */
 }
 
-.light {
-    --color-primary: #ec4b06; /* Brighter green for dark mode */
-    --color-muted: #334155; /* Muted slate color */
-    --color-tertiary: #64748b; /* Medium gray with blue tint */
-    --color-surface: #1e293b; /* Dark blue-gray for surfaces */
-    --color-accent: #94a3b8; /* Medium-light gray accent */
-    --color-secondary: #064e3b; /* Dark teal-green */
-    --color-content: #f1f5f9; /* Off-white text */
-    --color-background: #0f172a; /* Very dark blue-gray background */
-}
+/* .light {
+    --color-primary: #ec4b06;
+    --color-muted: #334155;
+    --color-tertiary: #64748b;
+    --color-surface: #1e293b;
+    --color-accent: #94a3b8;
+    --color-secondary: #064e3b;
+    --color-content: #f1f5f9;
+    --color-background: #0f172a;
+} */
 
 body {
     background-color: aliceblue;
+    font-family: var(--font-inter), var(--font-sans);
 }
