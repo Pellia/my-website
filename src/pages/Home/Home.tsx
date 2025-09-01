@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import TechStack from "./TechStack";
 import AboutMe from "./AboutMe";
+import Projects from "./Projects/Projects";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Hero />
             <TechStack />
             <AboutMe />
+            <Projects />
         </main>
     );
 };
