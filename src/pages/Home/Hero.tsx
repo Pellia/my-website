@@ -6,12 +6,12 @@ const Hero = () => {
                     <span className="block bg-gradient-to-r from-blue-400 via-indigo-400 to-violet-400 bg-clip-text text-4xl font-bold text-transparent">Full Stack Developer</span>
                     <span className="font-inter-black text-6xl">Rupinder Singh</span>
                 </h1>
-                <p className="font-inter-medium">
+                <p className="font-inter-medium my-4">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam perferendis cumque corporis, fugiat illo tempora. Consequuntur animi, earum rem sunt quo ducimus quae, voluptates
                     doloribus, pariatur perspiciatis maxime recusandae natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur accusamus veniam in quo voluptatibus, perferendis
                     vero, reprehenderit repellendus totam, doloribus quas reiciendis incidunt natus animi velit vitae delectus! Sint!
                 </p>
-                <ul className="mt-4 flex gap-6">
+                <ul className="flex gap-6">
                     <li>
                         <a href="https://github.com/Pellia" target="_blank">
                             <img src="./src/assets/icons/github-dark.svg" alt="github-icon" className="h-auto w-8" />
