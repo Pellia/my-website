@@ -1,6 +1,6 @@
 const TechStack = () => {
     return (
-        <div className="mt-8">
+        <div>
             <h2 className="font-inter-extrabold text-center text-3xl">My Tech Stack & Skills</h2>
             <p className="font-inter-medium text-center text-lg">Technologies and processes I work with daily</p>
             <div className="mx-auto mt-4 grid w-[80%] gap-6 lg:grid-cols-2">
