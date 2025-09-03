@@ -45,7 +45,8 @@
     --font-inter-bold: Inter-Bold;
     --font-inter-extrabold: Inter-ExtraBold;
     --font-inter-black: Inter-Black;
-    --color-primary: #3b82f6;
+    --color-primary: #51a2ff;
+    --color-border: #30363d;
     --color-background: #0d1117;
     /* --color-primary: #166534;
     --color-muted: #e5e5e5;
@@ -71,5 +72,5 @@
 body {
     background-color: #0d1117;
     font-family: var(--font-inter), var(--font-sans);
-    color: oklch(92.2% 0 0);
+    color: #e5e5e5;
 }
