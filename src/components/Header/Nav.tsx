@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
+import { navData } from "../../data/navData";
 
 const Navigation = () => {
     return (
         <nav className="flex justify-evenly">
             <ul className="flex gap-4">
-                <Link to="/">Home</Link>
-                <Link to="/">Projects</Link>
-                <Link to="/">Resume</Link>
-                <Link to="/articles">Blog</Link>
-                <Link to="/resources">Resources</Link>
+                {navData.map((nav) => (
+                    <Link key={nav.id} to={nav.route}>
+                        {nav.name}
+                    </Link>
+                ))}
             </ul>
         </nav>
     );
