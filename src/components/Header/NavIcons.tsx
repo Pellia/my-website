@@ -8,7 +8,7 @@ const NavIcons = () => {
                 return (
                     <li key={social.id} className="bg-background rounded-md p-2">
                         <a href={social.link} target="_blank">
-                            <SocialComponent size={social.size} color="social.color" />
+                            <SocialComponent size={social.size} color={social.color} />
                         </a>
                     </li>
                 );
