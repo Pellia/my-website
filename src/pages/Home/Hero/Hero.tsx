@@ -1,7 +1,8 @@
+import SvgPC from "./SvgPC";
 const Hero = () => {
     return (
         <div className="flex items-center gap-4">
-            <div className="flex flex-col">
+            <div className="flex w-[90%] flex-col">
                 <h1 className="font-inter-extrabold">
                     <span className="block bg-gradient-to-r from-blue-400 via-indigo-400 to-violet-400 bg-clip-text text-4xl font-bold text-transparent">Full Stack Developer</span>
                     <span className="font-inter-black text-6xl">Rupinder Singh</span>
@@ -29,9 +30,7 @@ const Hero = () => {
                     </li>
                 </ul>
             </div>
-            <div>
-                <div className="size-96 w-2xl bg-blue-400"></div>
-            </div>
+            <SvgPC />
         </div>
     );
 };
