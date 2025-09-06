@@ -46,27 +46,13 @@
     --font-inter-extrabold: Inter-ExtraBold;
     --font-inter-black: Inter-Black;
     --color-primary: #51a2ff;
+    --color-secondary: #5b5b66;
     --color-border: #30363d;
     --color-background: #0d1117;
-    /* --color-primary: #166534;
-    --color-muted: #e5e5e5;
-    --color-tertiary: #94a3b8;
-    --color-surface: #ffffff;
-    --color-accent: #64748b;
-    --color-secondary: #dcfce7;
-    --color-content: #0f172a;
-    --color-background: #f8fafc; */
+    --color-background-2: #21262d;
 }
 
 /* .light {
-    --color-primary: #ec4b06;
-    --color-muted: #334155;
-    --color-tertiary: #64748b;
-    --color-surface: #1e293b;
-    --color-accent: #94a3b8;
-    --color-secondary: #064e3b;
-    --color-content: #f1f5f9;
-    --color-background: #0f172a;
 } */
 
 body {

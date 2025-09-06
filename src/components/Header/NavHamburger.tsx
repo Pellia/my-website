@@ -29,9 +29,9 @@ const NavHamburger = () => {
                         </svg>
                     </div>
                 </div>
-                <ul className="mt-24 flex min-h-[250px] flex-col items-center justify-between">
+                <ul className="mt-24 flex min-h-[250px] flex-col items-center justify-between text-lg">
                     {navData.map((item) => (
-                        <Link key={item.id} to={item.route} onClick={handleNavVisibility} className="underline underline-offset-4">
+                        <Link key={item.id} to={item.route} onClick={handleNavVisibility} className="hover:text-primary">
                             {item.name}
                         </Link>
                     ))}
@@ -40,9 +40,9 @@ const NavHamburger = () => {
                     {socialdata.map((social) => {
                         const SocialComponent = social.icon;
                         return (
-                            <li key={social.id} className="bg-background rounded-md p-2">
+                            <li key={social.id} className="bg-background hover:bg-background-2 rounded-md p-1.5 duration-300">
                                 <a href={social.link} target="_blank">
-                                    <SocialComponent size="2em" color={social.color} />
+                                    <SocialComponent size="2em" />
                                 </a>
                             </li>
                         );
