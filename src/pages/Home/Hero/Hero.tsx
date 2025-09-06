@@ -8,8 +8,8 @@ const Hero = () => {
     };
 
     return (
-        <div className="flex h-dvh items-center gap-4">
-            <div className="flex w-[90%] flex-col text-lg">
+        <section className="flex h-dvh items-center gap-6">
+            <div className="flex flex-col text-center text-lg lg:w-full lg:text-left">
                 <h1 className="font-inter-extrabold">
                     <span className="from-primary block bg-gradient-to-r via-indigo-300 to-violet-400 bg-clip-text text-4xl font-bold text-transparent">Full Stack Developer</span>
                     <span className="font-inter-black text-6xl">Rupinder Singh</span>
@@ -19,20 +19,22 @@ const Hero = () => {
                     Passionate self-thaught full stack developer with 5+ years of experience as a bioinformatician in the healthcare field, building powerful and data-driven applications, with a clear
                     focus on functionality, usability and an intuitive user interface.
                 </p>
-                <ul className="flex gap-3">
+                <ul className="flex items-center justify-center gap-3 lg:justify-start">
                     {socialdata.map((social) => {
                         const SocialComponent = social.icon;
                         return (
-                            <li key={social.id} className="bg-background-secondary hover:bg-background-hover cursor-pointer rounded-md p-3 duration-300">
-                                <a href={social.link} target="_blank">
-                                    <SocialComponent size="1.8em" />
+                            <li key={social.id}>
+                                <a href={social.link} target="_blank" className="bg-background-secondary hover:bg-background-hover block cursor-pointer rounded-md p-3 duration-300">
+                                    <SocialComponent size="1.5em" />
                                 </a>
                             </li>
                         );
                     })}
                 </ul>
             </div>
-            <SvgPC />
+            <div className="hidden w-full lg:flex">
+                <SvgPC />
+            </div>
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 transform">
                 <button
                     className="text-l-text-3 dark:text-d-text-3 hover:text-primary flex animate-bounce cursor-pointer flex-col items-center space-y-2 duration-300"
@@ -58,7 +60,7 @@ const Hero = () => {
                     </svg>
                 </button>
             </div>
-        </div>
+        </section>
     );
 };
 

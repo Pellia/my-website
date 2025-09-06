@@ -1,5 +1,5 @@
 import Hero from "./Hero/Hero";
-import TechStack from "./TechStack";
+import TechStack from "./TechStack/TechStack";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects/Projects";
 
