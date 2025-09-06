@@ -49,7 +49,8 @@
     --color-secondary: #5b5b66;
     --color-border: #30363d;
     --color-background: #0d1117;
-    --color-background-2: #21262d;
+    --color-background-secondary: #161b22;
+    --color-background-hover: #21262d;
 }
 
 /* .light {

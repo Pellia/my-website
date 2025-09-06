@@ -6,7 +6,7 @@ const NavIcons = () => {
             {socialdata.map((social) => {
                 const SocialComponent = social.icon;
                 return (
-                    <li key={social.id} className="bg-background hover:bg-background-2 rounded-md p-1.5 duration-300">
+                    <li key={social.id} className="bg-background hover:bg-background-hover cursor-pointer rounded-md p-1.5 duration-300">
                         <a href={social.link} target="_blank">
                             <SocialComponent size="1.2em" />
                         </a>

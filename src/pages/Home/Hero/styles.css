@@ -69,7 +69,7 @@ svg#freepik_stories-code-typing.animated #freepik--Mouse--inject-161 {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100% {
         opacity: 1;
