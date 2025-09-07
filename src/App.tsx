@@ -3,7 +3,7 @@ import RootLayout from "./layout/RootLayout";
 import Home from "./pages/Home/Home";
 import Articles from "./pages/Articles";
 import Resources from "./pages/Resources";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NotFound/NotFound";
 
 const App = () => {
     return (
