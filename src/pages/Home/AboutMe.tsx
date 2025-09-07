@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <div>
+        <section className="mt-24 space-y-8">
             <h2 className="font-inter-extrabold text-center text-3xl">About Me</h2>
             <p className="font-inter-medium text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid labore harum necessitatibus nesciunt, consequuntur sint sequi dicta unde dolore cupiditate repellendus vitae eos
@@ -11,7 +11,7 @@ const AboutMe = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid labore harum necessitatibus nesciunt, consequuntur sint sequi dicta unde dolore cupiditate repellendus vitae eos
                 soluta. Magni voluptatum soluta doloribus natus.
             </p>
-        </div>
+        </section>
     );
 };
 
