@@ -1,8 +1,8 @@
 import { useScroll, useMotionValueEvent } from "motion/react";
 import Logo from "../Logo";
-import Nav from "./Nav";
+// import Nav from "./Nav";
 import NavIcons from "./NavIcons";
-import NavHamburger from "./NavHamburger";
+// import NavHamburger from "./NavHamburger";
 
 const Header = () => {
     const { scrollY } = useScroll();
