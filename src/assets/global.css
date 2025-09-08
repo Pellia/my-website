@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Font Inter Regular */
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter_28pt-Regular.ttf);
+}
+
+/* Font Inter Medium */
+@font-face {
+    font-family: Inter-Medium;
+    src: url(/fonts/Inter_28pt-Medium.ttf);
+}
+
+/* Font Inter Semi Bold */
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(/fonts/Inter_28pt-SemiBold.ttf);
+}
+
+/* Font Inter Bold */
+@font-face {
+    font-family: Inter-Bold;
+    src: url(/fonts/Inter_28pt-Bold.ttf);
+}
+
+/* Font Inter Extra Bold */
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(/fonts/Inter_28pt-ExtraBold.ttf);
+}
+
+/* Font Inter Black */
+@font-face {
+    font-family: Inter-Black;
+    src: url(/fonts/Inter_28pt-Black.ttf);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-inter: Inter;
+    --font-inter-medium: Inter-Medium;
+    --font-inter-semibold: Inter-SemiBold;
+    --font-inter-bold: Inter-Bold;
+    --font-inter-extrabold: Inter-ExtraBold;
+    --font-inter-black: Inter-Black;
+    --color-primary: #51a2ff;
+    --color-secondary: #5b5b66;
+    --color-border: #30363d;
+    --color-background: #0d1117;
+    --color-background-secondary: #161b22;
+    --color-background-hover: #21262d;
+}
+
+/* .light {
+} */
+
+body {
+    background-color: #0d1117;
+    font-family: var(--font-inter), var(--font-sans);
+    color: #e5e5e5;
+}

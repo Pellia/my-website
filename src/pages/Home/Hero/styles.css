@@ -1,0 +1,78 @@
+svg#freepik_stories-code-typing:not(.animated) .animable {
+    opacity: 0;
+}
+svg#freepik_stories-code-typing.animated #freepik--background-simple--inject-161 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Plant--inject-161 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Keyboard--inject-161 {
+    animation: 1s 1 forwards ease-in fadeIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Hands--inject-161 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Coffee--inject-161 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Monitor--inject-161 {
+    animation: 1s 1 forwards ease-in fadeIn;
+    animation-delay: 0s;
+}
+svg#freepik_stories-code-typing.animated #freepik--speech-bubbles--inject-161 {
+    animation:
+        1s 1 forwards ease-in fadeIn,
+        6s Infinite linear floating;
+    animation-delay: 0s, 1.5s;
+}
+svg#freepik_stories-code-typing.animated #freepik--Mouse--inject-161 {
+    animation: 1s 1 forwards ease-in fadeIn;
+    animation-delay: 0s;
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
