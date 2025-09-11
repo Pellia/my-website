@@ -37,6 +37,7 @@ const Hero = () => {
             </div>
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 transform">
                 <button
+                    type="button"
                     className="text-l-text-3 dark:text-d-text-3 hover:text-primary flex animate-bounce cursor-pointer flex-col items-center space-y-2 duration-300"
                     aria-label="Scroll to about section"
                     onClick={handleScroll}
