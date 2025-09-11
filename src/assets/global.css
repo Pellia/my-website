@@ -61,3 +61,9 @@ body {
     font-family: var(--font-inter), var(--font-sans);
     color: #e5e5e5;
 }
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}

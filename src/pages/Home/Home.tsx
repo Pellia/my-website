@@ -1,4 +1,3 @@
-import Reminder from "../../components/Reminder";
 import Hero from "./Hero/Hero";
 import TechStack from "./TechStack/TechStack";
 // import AboutMe from "./AboutMe";
@@ -6,12 +5,11 @@ import TechStack from "./TechStack/TechStack";
 
 const Home = () => {
     return (
-        <main className="container mx-auto min-h-screen space-y-8 px-4">
+        <main className="container mx-auto flex-1 space-y-8 px-4">
             <Hero />
             <TechStack />
             {/* <AboutMe /> */}
             {/* <Projects /> */}
-            <Reminder />
         </main>
     );
 };
