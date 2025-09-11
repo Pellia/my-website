@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header";
+import Reminder from "../components/Reminder";
 // import Footer from "../components/Footer/Footer";
 
 const RootLayout = () => {
@@ -7,6 +8,7 @@ const RootLayout = () => {
         <>
             <Header />
             <Outlet />
+            <Reminder />
             {/* <Footer /> */}
         </>
     );
