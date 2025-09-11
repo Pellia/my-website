@@ -1,3 +1,4 @@
+import Reminder from "../../components/Reminder";
 import Hero from "./Hero/Hero";
 import TechStack from "./TechStack/TechStack";
 // import AboutMe from "./AboutMe";
@@ -10,6 +11,7 @@ const Home = () => {
             <TechStack />
             {/* <AboutMe /> */}
             {/* <Projects /> */}
+            <Reminder />
         </main>
     );
 };
