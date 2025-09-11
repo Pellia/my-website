@@ -1,7 +1,7 @@
 // Main Tech items
 import type { IconType } from "react-icons";
 import { IoLogoReact, IoLogoJavascript, IoLogoCss3, IoLogoHtml5, IoLogoNodejs, IoLogoPython, IoLogoDocker, IoGitPullRequest, IoDocumentTextSharp, IoCodeSlashSharp } from "react-icons/io5";
-import { SiTypescript, SiTailwindcss, SiExpress, SiFastapi, SiServerless, SiPostgresql, SiOracle, SiClaris, SiMongodb } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiExpress, SiFastapi, SiServerless, SiPostgresql, SiOracle, SiClaris, SiMongodb, SiGithubactions } from "react-icons/si";
 import { FaDatabase, FaDiagramProject, FaLaptopCode, FaRegLightbulb, FaPersonRunning } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { AiFillProduct, AiOutlineTeam } from "react-icons/ai";
@@ -63,7 +63,7 @@ export const techdata: TechCategory[] = [
         name: "Development Practices",
         data: [
             { id: 0, name: "Agile Development", icon: FaPersonRunning, color: "#61DAFB" },
-            { id: 1, name: "CI/CD", icon: SiTypescript, color: "#3178C6" },
+            { id: 1, name: "CI/CD", icon: SiGithubactions, color: "#3178C6" },
             { id: 2, name: "Documentation", icon: IoDocumentTextSharp, color: "#F7DF1E" },
             { id: 3, name: "Git Flow", icon: IoGitPullRequest, color: "#F05032" },
             { id: 4, name: "Clean Code", icon: IoCodeSlashSharp, color: "#3178C6" },
