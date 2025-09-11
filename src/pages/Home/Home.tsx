@@ -5,7 +5,7 @@ import TechStack from "./TechStack/TechStack";
 
 const Home = () => {
     return (
-        <main className="container mx-auto min-h-screen space-y-8 px-4">
+        <main className="container mx-auto flex-1 space-y-8 px-4">
             <Hero />
             <TechStack />
             {/* <AboutMe /> */}

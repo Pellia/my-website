@@ -1,6 +1,6 @@
 const LegalNotice = () => {
     return (
-        <main className="container mx-auto my-24 px-6">
+        <main className="container mx-auto mt-24 mb-12 flex-1 px-6">
             <div className="bg-background-secondary border-border mx-auto rounded-md border-1 p-6 md:w-[70%]">
                 <h2 className="font-inter-extrabold text-2xl">Legal Notice</h2>
                 <section className="mt-2 mb-6">

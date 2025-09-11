@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header";
 import Reminder from "../components/Reminder";
-// import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 const RootLayout = () => {
     return (
@@ -9,7 +9,7 @@ const RootLayout = () => {
             <Header />
             <Outlet />
             <Reminder />
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 };
